@@ -116,12 +116,10 @@ h1 {
     border-bottom-color: transparent;
   }
 
-
   &:focus {
     outline-offset: 0px;
   }
 }
-
 
 .header-btn {
   font-weight: 700px;
@@ -313,6 +311,34 @@ h1 {
 
 .xizma {
   margin-left: 16px;
+}
+
+.sitenav-list-inner {
+  background-color: #fff;
+  position: absolute;
+  width: 124px;
+  border-radius: 5px;
+  left: -15px;
+}
+
+.sitenav-item:hover .sitenav-list-inner {
+
+}
+.sitenav-link-inner {
+  display: inline-block;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  color: #000000;
+  &:hover {
+    background-color: #00bafc;
+    color: #ffffff;
+  }
+}
+
+.sitenav-item {
+  position: relative;
 }
 
 .main-center {
